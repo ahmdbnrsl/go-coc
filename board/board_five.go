@@ -22,7 +22,7 @@ func Board_five() {
         aa int = 17 // aa - 5 = 16 × 3 ÷ 2² (VAR AA)
         r int = 6// (12 ÷ 3)² × 2 - 17 = 5 + 4 + R (VAR R)
         s int = 7// 8 - 6 + S = 3⁴ ÷ 9 (VAR S)
-        //z int = // 5 × 7 - Z = (12 ÷ 3) ÷ (1 ÷ 3)
+        z int = 23// 5 × 7 - Z = (12 ÷ 3) ÷ (1 ÷ 3)
         /** KOREKSI **/
         /** HARUS MENGEMBALIKAN NILAI TRUE **/
     )
@@ -42,4 +42,5 @@ func Board_five() {
     compare(aa - a, g * x / exponen(m, 2)) // var AA
     compare(exponen(p / x, 2) * m - aa, a + d + r) //var R
     compare(k - r + s, exponen(x, 4) / h) // var S
+    compare(5 * s - z, int((float32(p) / 3) / (float32(1) / float32(o))))
 }
