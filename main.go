@@ -7,4 +7,6 @@ func main() {
     board.Board_one()
     println("===== BOARD TWO =====")
     board.Board_two()
+    println("===== BOARD THREE =====")
+    board.Board_three()
 }
