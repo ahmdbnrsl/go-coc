@@ -9,4 +9,6 @@ func main() {
     board.Board_two()
     println("===== BOARD THREE =====")
     board.Board_three()
+    println("===== BOARD FIVE =====")
+    board.Board_five()
 }
