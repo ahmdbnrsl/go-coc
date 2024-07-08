@@ -15,11 +15,11 @@ func Board_three() {
     const (
         /* VARIABLE YANG VALUENYA TIDAK MENGACU PADA VARIABEL LAIN*/
         /* MAKA KITA CARI VALUE NYA DI AWAL */
-        d int = 15 
-        g int = 2
-        l int = 5
-        m int = 6
-        s int = 11
+        d int = 15 // 3 × 5 = d
+        g int = 2 // 10 -2 × 4 = g
+        l int = 5 // 2 + L = 7
+        m int = 6 // M ÷ 3 = 2
+        s int = 11 // 4 + 7 = S
         /** VARIABEL YANG MENGACU PADA VARIABLE DIATAS **/
         b int = -9 // B + 15 = 6
         i int = 31 // 77 = I + (12 + 11) × 2
