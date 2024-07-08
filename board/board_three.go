@@ -3,7 +3,7 @@ package board
 import "fmt"
 import "math"
 
-func compare(xx, yy int) {
+func compare(xx, yy any) {
     fmt.Println(xx == yy)
 }
 
